@@ -1,4 +1,4 @@
-job('GIT-ansible-job-dsl-CHILDERN'){
+job('GITHUB-ansible-job-dsl-CHILDERN'){
     description('This job was built using code (dsl job)')
 
     parameters {

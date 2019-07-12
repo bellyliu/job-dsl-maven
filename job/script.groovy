@@ -22,7 +22,7 @@ job('GITHUB-ansible-job-dsl-CHILDERN'){
     }
 }
 
-job('GIT-maven-dsl-job'){
+job('GITHUB-maven-dsl-job'){
 
     description('this is maven job using dsl pluggin')
 

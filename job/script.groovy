@@ -22,7 +22,7 @@ job('GITHUB-ansible-job-dsl-CHILDERN'){
     }
 }
 
-job('GIT-maven-dsl-job'){
+job('GITHUB-maven-dsl-job'){
 
     description('this is maven job using dsl pluggin')
 
@@ -45,7 +45,7 @@ job('GIT-maven-dsl-job'){
                 echo "============="
                 echo "DEPLOYING JAR"
                 echo "============="
-                java -jar /var/jenkins_home/workspace/maven-dsl-job/target/my-app-1.0-SNAPSHOT.jar
+                java -jar /var/jenkins_home/workspace/GITHUB-maven-dsl-job/target/my-app-1.0-SNAPSHOT.jar
                 
                 ''')
         
